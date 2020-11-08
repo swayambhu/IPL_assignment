@@ -5,7 +5,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif; 
     background-image: url(https://i.pinimg.com/originals/f4/0c/fe/f40cfef2ef26c8f87ea65894d0ba41d7.jpg);
-    background-size: cover;
+    background-size:cover;
     
     
 }
@@ -124,7 +124,7 @@ body{
     padding: 12px;
     letter-spacing: 1.2px;    
 }
-@media only screen and (max-width: 600px) {
+@media(max-width: 600px){
     .card{
         width: 100%;
     }

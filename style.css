@@ -161,9 +161,12 @@ body{
         line-height: 1.9;
     }
 
-    
+    #card-grid{
+        padding: 16px;
+    }
     .card{
-        width: 100% !important;
+        width: calc(50% - 10px);
+        margin: 5px;
     }
 }
 

@@ -38,9 +38,8 @@ body{
 
 .styled-table{
     border-collapse: collapse;
-    margin: 25px;
     font-size: 0.9em;
-    min-width: 400px;
+    width: 87%;
     border-collapse: collapse;
     border-radius: 1em;
     overflow: hidden;
@@ -124,7 +123,8 @@ body{
     padding: 12px;
     letter-spacing: 1.2px;    
 }
-@media(max-width: 600px){
+
+@media screen and (max-width: 720px){
     .card{
         width: 100%;
     }

@@ -14,24 +14,27 @@
     <header id="topbar">       
         <nav>            
             <a class="menu-item active" href="index.html">Home</a>
-            <a class="menu-item"  href="#">Contact</a>
-            <a class="menu-item" href="#">About</a>
+            <a class="menu-item"  href="contact.html">Contact</a>
+            <a class="menu-item" href="about.html">About</a>
         </nav>
     </header>
-    
-    <div class="wrapper">
-        <div class="contact-form">
-            <div class="input-fields">
-                <input type="text" class="input" placeholder="NAME">
-                <input type="text" class="input" placeholder="EMAIL ADDRESS">
-                <input type="text" class="input" placeholder="PHONE">
-                <input type="text" class="input" placeholder="SUBJECT">
-            </div>
-            <div class="msg">
-                <textarea placeholder="MESSAGE"></textarea>
-                <div class="btn">SEND</div>
+    <form action="response.html" method="post" target="_self">
+        <div class="wrapper">
+            <div class="contact-form">
+                <div class="input-fields">
+                    <input type="text" class="input" placeholder="NAME">
+                    <input type="text" class="input" placeholder="EMAIL ADDRESS">
+                    <input type="text" class="input" placeholder="PHONE">
+                    <input type="text" class="input" placeholder="SUBJECT">
+                </div>
+                <div class="msg">
+                    <textarea placeholder="MESSAGE"></textarea>
+                    <div class="btn">
+                    <input type="submit" value="SEND"></div>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
+    
 </body>
 </html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+body{
+    background: url('https://www.hdwallpapersfreedownload.com/uploads/large/ipl/ipl-t20-2018-trophy-cup-hd-wallpaper.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.main{
+   width: 50%;
+    background: rgba(0,0,0,0.7);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 17%;
+    left: 23.5%;
+    transform: translateY(-50%,-50%);
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #39b7dd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    border: 1px solid white;
+    background: black;
+    color: greenyellow;
+}

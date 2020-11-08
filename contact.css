@@ -44,6 +44,7 @@ body{
     
 }
 
+
 .input-fields .input,
 .msg textarea{
     margin: 10px 0;
@@ -66,7 +67,8 @@ body{
     color: #c5ecfd;
 }
 
-.btn{
+
+.btn input{
     background: #39b7dd;
     padding: 15px;
     text-align: center;
@@ -74,9 +76,8 @@ body{
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
-    
+    width: 100%;
 }
-
 @media screen and (max-width:600px){
     .contact-form{
         flex-direction: column;

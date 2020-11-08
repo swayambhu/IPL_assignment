@@ -78,6 +78,11 @@ body{
     text-transform: uppercase;
     width: 100%;
 }
+.btn input:hover{
+    border: 1px solid white;
+    background: black;
+    color: greenyellow;
+}
 @media screen and (max-width:600px){
     .contact-form{
         flex-direction: column;

@@ -4,10 +4,9 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif; 
-    background-image: url(https://i.pinimg.com/originals/f4/0c/fe/f40cfef2ef26c8f87ea65894d0ba41d7.jpg);
+    background : url('https://i.pinimg.com/originals/f4/0c/fe/f40cfef2ef26c8f87ea65894d0ba41d7.jpg') top center;
     background-size:cover;
-    
-    
+    height: 100vh;
 }
 
 #topbar{
@@ -39,7 +38,7 @@ body{
 .styled-table{
     border-collapse: collapse;
     font-size: 0.9em;
-    width: 87%;
+    min-width: 400px;
     border-collapse: collapse;
     border-radius: 1em;
     overflow: hidden;
@@ -125,6 +124,9 @@ body{
 }
 
 @media screen and (max-width: 720px){
+    .styled-table{
+        margin: 20px;
+    }
     .card{
         width: 100%;
     }

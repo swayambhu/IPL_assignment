@@ -68,17 +68,22 @@ body{
 }
 
 
-.btn input{
+.btn{
     border: none;
     background: #39b7dd;
     padding: 15px;
     text-align: center;
     border-radius: 5px;
     color: #fff;
+   
     cursor: pointer;
     text-transform: uppercase;
     width: 100%;
 }
+a{
+     text-decoration: none;
+}
+
 .btn input:hover{
     border: 1px solid white;
     background: black;
